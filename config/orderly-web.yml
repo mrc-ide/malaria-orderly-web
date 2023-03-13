@@ -55,10 +55,10 @@ orderly:
     repo: mrcide
     name: malaria-orderly-image
     worker_name: malaria-orderly-image
-    tag: main
+    tag: latest
   initial:
     source: clone
-    url: git@github.com:mrc-ide/malaria-orderly
+    url: https://github.com/mrc-ide/malaria-sites-orderly.git
   workers: 1
   env:
     ORDERLY_API_SERVER_IDENTITY: main
