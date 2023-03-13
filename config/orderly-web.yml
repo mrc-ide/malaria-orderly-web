@@ -132,7 +132,7 @@ proxy:
     ##    the keys here, or more likely use a VAULT:<path>:<key>
     ##    string to extract them from the vault.
     certificate: VAULT:secret/malaria-orderly/ssl:cert
-    key: VAULT:secret/malaria-orderly/ssl/ssl:key
+    key: VAULT:secret/malaria-orderly/ssl:key
   hostname: malaria-orderly.dide.ic.ac.uk
   port_http: 80
   port_https: 443
