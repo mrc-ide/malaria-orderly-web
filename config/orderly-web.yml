@@ -137,7 +137,7 @@ proxy:
   port_http: 80
   port_https: 443
   image:
-    repo: mrcide
+    repo: vimc
     name: orderly-web-proxy
     tag: latest
 
