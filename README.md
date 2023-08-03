@@ -1,11 +1,11 @@
-## Malaria OrderlyWeb configuration
+## Malaria Packit configuration
 
 ### Prerequisites
 
 First, install the deploy tool
 
 ```
-pip3 install --user orderly-web
+pip3 install --user packit-deploy
 ```
 
 Ensure that the path that the script is copied into is in your path (on Linux, most likely `~/.local/bin`, on OSX `~/Library/Python/<version>/bin`
@@ -13,21 +13,21 @@ Ensure that the path that the script is copied into is in your path (on Linux, m
 ### Start
 
 ```
-orderly-web start config
+packit start config
 ```
 
 ### Upgrading
 
-It is possible that the `orderly-web` deploy scripts should be updated
+It is possible that the `packit-deploy` deploy scripts should be updated
 
 ```
-pip3 install --user --upgrade orderly-web
+pip3 install --user --upgrade packit-deploy
 ```
 
 Then redeploy with:
 
 ```
-orderly-web stop config
-orderly-web start --pull config
+packit stop config
+packit start --pull config
 ```
 
