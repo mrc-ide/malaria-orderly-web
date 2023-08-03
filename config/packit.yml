@@ -27,7 +27,7 @@ container_prefix: malaria
 
 ## Set this flag to true to prevent use of --volumes in the cli to remove
 ## volumes on stop
-protect_data: false
+protect_data: true
 
 ## The name of the docker network that containers will be attached to.
 ## If you want to proxy OrderlyWeb to the host, you will need to
