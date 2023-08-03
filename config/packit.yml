@@ -89,7 +89,7 @@ packit:
     tag: main
   app:
     name: packit
-    tag: main
+    tag: mrc-4372
   db:
     name: packit-db
     tag: main
