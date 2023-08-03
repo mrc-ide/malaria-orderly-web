@@ -78,7 +78,7 @@ outpack:
     url: https://github.com/mrc-ide/malaria-sites-orderly
   server:
     name: outpack_server
-    tag: main
+    tag: mrc-4470
   migrate:
     name: outpack.orderly
     tag: main
